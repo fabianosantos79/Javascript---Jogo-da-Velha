@@ -11,9 +11,9 @@ let playing = false;
 
 
 // Events
-document.querySelector('.reset').addEventListener('click', reset);
+document.querySelector('.reset').addEventListener('click',reset);
 document.querySelectorAll('.item').forEach(item => {
-    item.addEventListener('click', itemClick);
+    item.addEventListener('click',itemClick);
 });
 
 
